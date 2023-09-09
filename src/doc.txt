@@ -1,0 +1,9 @@
+dynamic routing 
+
+In the nextjs we perform dynamic routing,
+By using [] braces.
+pass the name of the query what we want like 
+[id], [pageno] and save the file name with .js, .jsx or any other what you use.
+Pass the query in the url: 
+ http://localhost:3000/blog/Ravi,
+http://localhost:3000/blog/1
