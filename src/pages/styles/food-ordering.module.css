@@ -1,0 +1,42 @@
+/* Styles for the overall container */
+.foodcontainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th, .table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.totalPrice {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
